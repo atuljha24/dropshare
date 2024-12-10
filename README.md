@@ -1,69 +1,72 @@
-# Django-WebApp       <img alt="GitHub" src="https://img.shields.io/github/license/smahesh29/Django-WebApp">
+Sure! Here's the updated README in the code format, ready for you to copy and paste:
 
+```markdown
+# DropShare WebApp
 
-This project was done by me as a assignment for an internship.
+This project is a **file-sharing web application** where users can upload, share, and manage their files securely.
 
-<h2>Assignment Problem Statement:</h2>
-
-<h4>Part 1:</h4>
-<ol>
-    <li>Create a web-app where a user can login.</li>
-    <li>User can upload files.</li>
-    <li>User can view his/her uploaded files.</li>
-</ol>
-
-<h4>Part 2:</h4>
-<ol>
-     <li>User can search and view profile of other users.</li>
-     <li>They can share their uploaded files with any of those users.</li>
-     <li>Users can see the shared files by other users also in uploaded files.</li>
-</ol>
-
-<h4>Additional Features:</h4>
-<ol>
-    <li>In users profile user can set his/her profile picture.</li>
-    <li>Users can download other users uploaded files.</li>
-    <li>The user can upload any type of files such as images, videos, text files and also different types of programs like python code, java code, etc.</li>
-</ol>
-    
-<h2>Technologies Used:</h2>
-<ul>
-    <li>Python</li>
-    <li>Django</li>
-    <li>Bootstrap</li>
-    <li>JavaScript</li>
-</ul>
-    
-<h2>Additional Python Modules Required:</h2>
-<ul>
-    <li>Django</li>
-    <li>django-crispy-forms</li>
-    <li>Pillow</li>
-</ul>
+## Assignment Problem Statement:
+- **Part 1:**
+  1. Users can log in to the application.
+  2. Users can upload files.
+  3. Users can view their uploaded files.
   
-<h2>Note :</h2>
+- **Part 2:**
+  1. Users can search for and view profiles of other users.
+  2. Users can share uploaded files with other users.
+  3. Users can view files shared by others.
 
-<b>The Secret_Key required for the execution and debugging of project is not removed from the project code. So you can use the project as your college mini-project or by using the project code you can build your own project.</b>
+## Additional Features:
+- Users can set a profile picture in their account.
+- Users can download files uploaded by other users.
+- The app supports uploading various types of files such as images, videos, text files, and code files (Python, Java, etc.).
 
-<h2>Usage :</h2>
+## Technologies Used:
+- Python
+- Django
+- Bootstrap
+- JavaScript
 
-    python django_web_app/manage.py makemigrations
+## Python Modules Required:
+- Django
+- django-crispy-forms
+- Pillow
 
-    python django_web_app/manage.py migrate
+## How to Run the Project:
 
-    python django_web_app/manage.py runserver
-    
-   In your web browser enter the address : http://localhost:8000 or http://127.0.0.1:8000/
+1. Navigate to the Django project directory:
+   ```bash
+   cd django_web_app
+   ```
 
-# Working:
-[![Watch the video](https://img.youtube.com/vi/qIK-vfTig6c/0.jpg)](https://youtu.be/qIK-vfTig6c)
+2. Create migrations:
+   ```bash
+   python manage.py makemigrations
+   ```
 
-# Screenshots : 
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_36.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_51.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_14_44.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_15_47.png" height="400" width="800">
-<img src="Screenshots/New Tab - Google Chrome 03-12-2019 19_16_14.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 04-12-2019 13_41_50.png" height="400" width="800">
-<img src="Screenshots/Django WebApp - Google Chrome 03-12-2019 20_48_45.png" height="400" width="800">
+3. Apply the migrations:
+   ```bash
+   python manage.py migrate
+   ```
 
+4. Run the development server:
+   ```bash
+   python manage.py runserver
+   ```
+
+5. Open your browser and go to:
+   ```
+   http://localhost:8000 or http://127.0.0.1:8000/
+   ```
+
+## Screenshots:
+- ![Screenshot 1](Screenshots/New_Tab_-_Google_Chrome_03-12-2019_19_14_36.png)
+- ![Screenshot 2](Screenshots/New_Tab_-_Google_Chrome_03-12-2019_19_14_51.png)
+- ![Screenshot 3](Screenshots/New_Tab_-_Google_Chrome_03-12-2019_19_14_44.png)
+- ![Screenshot 4](Screenshots/New_Tab_-_Google_Chrome_03-12-2019_19_15_47.png)
+- ![Screenshot 5](Screenshots/New_Tab_-_Google_Chrome_03-12-2019_19_16_14.png)
+- ![Screenshot 6](Screenshots/Django_WebApp_-_Google_Chrome_04-12-2019_13_41_50.png)
+- ![Screenshot 7](Screenshots/Django_WebApp_-_Google_Chrome_03-12-2019_20_48_45.png)
+```
+
+You can now paste this content directly into your `README.md` file. Let me know if you need further assistance!
